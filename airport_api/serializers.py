@@ -6,7 +6,7 @@ from airport_api.models import Airport, Route
 class AirportSerializer(serializers.ModelSerializer):
     class Meta:
         model = Airport
-        fields = ("id", "name", "closest_bit_city")
+        fields = ("id", "name", "closest_big_city")
 
 
 class RouteSerializer(serializers.ModelSerializer):
