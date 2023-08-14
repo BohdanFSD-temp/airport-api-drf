@@ -27,7 +27,3 @@ class Route(models.Model):
 
     def __str__(self):
         return f"From {self.source} to {self.destination}"
-
-    @property
-    def route_str(self):
-        return f"From {self.source} to {self.destination}"
