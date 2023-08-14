@@ -40,7 +40,8 @@ INSTALLED_APPS = [
     "rest_framework",
     "airport_api",
     "flight",
-    "user"
+    "user",
+    "order"
 ]
 
 MIDDLEWARE = [
