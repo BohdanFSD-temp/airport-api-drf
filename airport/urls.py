@@ -21,5 +21,6 @@ urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/airport/", include("airport_api.urls", namespace="airport")),
     path("api/flight/", include("flight.urls", namespace="flight")),
-    path("api/order/", include("order.urls", namespace="order"))
+    path("api/order/", include("order.urls", namespace="order")),
+    path("api/user/", include("user.urls", namespace="user")),
 ]
